@@ -21,6 +21,7 @@ const Navbar = () => {
             <img src={assets.search_icon} alt='search'/>
             <div className="navbar-search-icon">
                 <img src={assets.basket_icon} alt='basket'/>
+                <div className="cart-add-dot"></div>
             </div>
             <button> Sign In </button>
         </div>

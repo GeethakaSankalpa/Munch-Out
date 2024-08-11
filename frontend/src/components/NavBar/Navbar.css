@@ -36,7 +36,7 @@
 }
 
 .navbar button:hover{
-    background-color: #E5AA70;
+    background-color: #E97451;
 }
 
 .navbar .active{
@@ -46,4 +46,18 @@
 
 .navbar li{
     cursor: pointer;
+}
+
+.navbar-search-icon{
+    position: relative;
+}
+
+.navbar-search-icon .cart-add-dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: #E97451;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
 }
