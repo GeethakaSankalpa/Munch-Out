@@ -1,27 +1,46 @@
-import React from 'react'
-import './ExploreMenu.css'
-import { menu_list } from '../../assets/assets'
+// Import the React library
+import React from 'react';
 
-const ExploreMenu = ({category, setCategory}) => {
+// Import the CSS file for this component
+import './ExploreMenu.css';
+
+// Import the menu list data from the assets folder
+import { menu_list } from '../../assets/assets';
+
+// Define the ExploreMenu component, which takes in two props: category and setCategory
+const ExploreMenu = ({ category, setCategory }) => {
+    // Return the JSX for the component
     return (
+        // Create a div with the class 'explore-menu' and id 'explore-menu'
         <div className='explore-menu' id='explore-menu'>
+      {/* Display the heading "Explore Our Menu" */}
             <h1> Explore Our Menu </h1>
-            <p className='explore-menu-text'><emp> Satisfy Your Cravings: </emp> From classic comfort food to innovative twists, our menu is designed to delight your taste buds and
+      {/* Display a paragraph of text with a bolded section */}
+            <p className='explore-menu-text'>
+                <emp> Satisfy Your Cravings: </emp> From classic comfort food to innovative twists, our menu is designed to delight your taste buds and
                 leave you feeling fulfilled.
             </p>
+      {/* Create a div to hold the menu list items */}
             <div className="explore-menu-list">
+        {/* Use the map function to iterate over the menu list data and create a list item for each menu item */}
                 {menu_list.map((item, index) => {
-                    return(
-                        <div onClick={() => {setCategory(prev => prev === item.menu_name ? "All": item.menu_name)}} key={index} className="explore-menu-list-item">
-                            <img className={category === item.menu_name ?"active":""} src={item.menu_image} alt=''/>
+                    // Return a div for each menu item
+                    return (
+                        // Create a div with an onClick event handler that updates the category state
+                        <div onClick={() => { setCategory(prev => prev === item.menu_name ? "All" : item.menu_name) }} key={index} className="explore-menu-list-item">
+              {/* Display an image for the menu item, with a class of 'active' if the current category matches the menu item's name */}
+                            <img className={category === item.menu_name ? "active" : ""} src={item.menu_image} alt='' />
+              {/* Display the menu item's name */}
                             <p> {item.menu_name}</p>
                         </div>
-                    )
+                    );
                 })}
             </div>
-            <hr/>
+      {/* Add a horizontal rule to separate the menu list from the rest of the content */}
+            <hr />
         </div>
-    )
-}
+    );
+};
 
-export default ExploreMenu
+// Export the ExploreMenu component as the default export
+export default ExploreMenu;
