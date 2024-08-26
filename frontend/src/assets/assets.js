@@ -1,6 +1,6 @@
 import basket_icon from './basket_icon.png'
 import logo from './logo.jpeg'
-import header_img from './header_img.jpg'
+import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
@@ -137,7 +137,7 @@ export const food_list = [
         name: "Greek salad",
         image: food_1,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "A vibrant mix of tomatoes, cucumbers, feta, olives, and red onion.",
         category: "Salad"
     },
     {
