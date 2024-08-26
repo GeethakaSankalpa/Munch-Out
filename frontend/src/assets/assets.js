@@ -13,6 +13,9 @@ import menu_8 from './menu_8.png'
 import menu_9 from './menu_9.png'
 import menu_10 from './menu_10.png'
 import menu_11 from './menu_11.png'
+import menu_12 from './menu_12.png'
+import menu_13 from './menu_13.png'
+import menu_14 from './menu_14.png'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -91,23 +94,23 @@ export const menu_list = [
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Pastry Items",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Sandwich",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Rolls",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Burgers",
         menu_image: menu_5
     },
     {
-        menu_name: "Pure Veg",
+        menu_name: "Submarine",
         menu_image: menu_6
     },
     {
@@ -115,20 +118,32 @@ export const menu_list = [
         menu_image: menu_7
     },
     {
-        menu_name: "Noodles",
+        menu_name: "Pizza",
         menu_image: menu_8
     },
     {  
-        menu_name: "Burgers",
+        menu_name: "Lasagna",
         menu_image:menu_9
     },
     {  
-        menu_name: "Pizza",
+        menu_name: "Noodles",
         menu_image:menu_10
     },
     {  
-        menu_name: "Beverages",
+        menu_name: "Pure Veg",
         menu_image:menu_11
+    },
+    {  
+        menu_name: "Beverages",
+        menu_image:menu_12
+    },
+    {  
+        menu_name: "Desserts",
+        menu_image:menu_13
+    },
+    {  
+        menu_name: "Cake",
+        menu_image:menu_14
     }]
 
 export const food_list = [
