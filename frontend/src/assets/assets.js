@@ -763,7 +763,6 @@ export const food_list = [
         category: "Pizza",
         type: "Vegan & Vegetarian Delights"
     },
-    ,
     {
         _id: "60",
         name: "Artichoke Pizza",
@@ -791,7 +790,6 @@ export const food_list = [
         category: "Pizza",
         type: "Meat Lovers"
     },
-    ,
     {
         _id: "63",
         name: "Hawaiian Pizza",
