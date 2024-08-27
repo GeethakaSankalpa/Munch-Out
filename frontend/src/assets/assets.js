@@ -191,12 +191,12 @@ export const menu_list = [
     {
         menu_name: "Pastry",
         menu_image: menu_2,
-        menu_category:["Sweet Treats", "Savory Delights", "International Inspirations"]
+        menu_category:["Sweet Treats", "International Inspirations"]
     },
     {
         menu_name: "Sandwich",
         menu_image: menu_3,
-        menu_category:["Classics", "Meat Lovers", "Veggie Delights", "International Inspirations"]
+        menu_category:["Classics", "Meat Lovers", "Veggie Delights",]
     },
     {
         menu_name: "Roll",
@@ -262,7 +262,7 @@ export const food_list = [
         price: 800,
         description: "Fresh mozzarella, ripe tomatoes, and basil, dressed with olive oil. Italian-inspired simplicity.",
         category: "Salad",
-        type:""
+        type:"Classic Salads"
     },
     {
         _id: "2",
@@ -270,7 +270,8 @@ export const food_list = [
         image: food_2,
         price: 900,
         description: "A timeless salad featuring romaine lettuce, croutons, parmesan cheese, and a tangy Caesar dressing. Timeless favorite.",
-        category: "Salad"
+        category: "Salad",
+        type:"Classic Salads"
     },
     {
         _id: "3",
@@ -278,7 +279,8 @@ export const food_list = [
         image: food_3,
         price: 1200,
         description: "Grilled chicken, bacon, avocado, and eggs on mixed greens with tangy ranch dressing.",
-        category: "Salad"
+        category: "Salad",
+        type:"Protein-packed Salads"
     },
     {
         _id: "4",
@@ -286,7 +288,8 @@ export const food_list = [
         image: food_4,
         price: 1000,
         description: "A classic and satisfying salad featuring Tender chicken with celery, grapes, and creamy savory dressing.",
-        category: "Salad"
+        category: "Salad",
+        type:"Protein-packed Salads"
     },
     {
         _id: "5",
@@ -294,7 +297,8 @@ export const food_list = [
         image: food_5,
         price: 1000,
         description: "Protein-rich tuna mixed with onions, capers, and zesty lemon dressing. Ocean-inspired freshness.",
-        category: "Salad"
+        category: "Salad",
+        type:"Protein-packed Salads"
     },
     {
         _id: "6",
@@ -302,7 +306,8 @@ export const food_list = [
         image: food_6,
         price: 700,
         description: "Nutritious and refreshing salad featuring Protein-packed clover sprouts with feta, almonds, and herby dressing.",
-        category: "Salad"
+        category: "Salad",
+        type:"Veggie-Delights"
     },
     {
         _id: "7",
@@ -310,7 +315,8 @@ export const food_list = [
         image: food_7,
         price: 800,
         description: "A Mediterranean-inspired salad featuring mixed greens, feta cheese, olives, cucumber, and tomatoes.",
-        category: "Salad"
+        category: "Salad",
+        type:"Veggie-Delights"
     },
     {
         _id: "8",
@@ -318,7 +324,8 @@ export const food_list = [
         image: food_8,
         price: 900,
         description: "Nutritious quinoa mixed with roasted vegetables, feta, and herby pesto dressing. Healthy and flavorful.",
-        category: "Salad"
+        category: "Salad",
+        type:"Veggie-Delights"
     },
     {
         _id: "9",
@@ -326,7 +333,8 @@ export const food_list = [
         image: food_9,
         price: 400,
         description: "Nutty, honeyed, crispy, and indulgently sweet Middle Eastern treat. Sweet and satisfying.",
-        category: "Pastry"
+        category: "Pastry",
+        type:"Sweet Treats"
     },
     {
         _id: "10",
@@ -334,7 +342,8 @@ export const food_list = [
         image: food_10,
         price: 300,
         description: "Crunchy, twice-baked, and perfect for dipping in coffee. Coffee’s Best friend.",
-        category: "Pastry"
+        category: "Pastry",
+        type:"Sweet Treats"
     },
     {
         _id: "11",
@@ -342,7 +351,8 @@ export const food_list = [
         image: food_11,
         price: 500,
         description: "Long, creamy, dreamy, chocolatey treat to satisfy cravings. Decadent delight.",
-        category: "Pastry"
+        category: "Pastry",
+        type:"Sweet Treats"
     },
     {
         _id: "12",
@@ -350,7 +360,8 @@ export const food_list = [
         image: food_12,
         price: 600,
         description: "Sweet, tangy, and bursting with fresh fruit flavors. Fruitful Delight.",
-        category: "Pastry"
+        category: "Pastry",
+        type:"Sweet Treats"
     },
     {
         _id: "13",
@@ -358,7 +369,8 @@ export const food_list = [
         image: food_13,
         price: 400,
         description: "Gooey marshmallows, chocolatey goodness, and graham cracker crunch. Campfire classic.",
-        category: "Pastry"
+        category: "Pastry",
+        type:"Sweet Treats"
     },
     {
         _id: "14",
@@ -366,7 +378,8 @@ export const food_list = [
         image: food_14,
         price: 500,
         description: "A Sicilian pastry dessert, consisting of tube-shaped shells filled with sweet ricotta cheese and chocolate chips. Italian Classic.",
-        category: "Pastry"
+        category: "Pastry",
+        type:"International Inspirations"
     },
     {
         _id: "15",
@@ -374,7 +387,8 @@ export const food_list = [
         image: food_15,
         price: 400,
         description: "Flaky, buttery, crispy, golden pastry to start your day. Flaky perfection.",
-        category: "Pastry"
+        category: "Pastry",
+        type:"International Inspirations"
     },
     {
         _id: "16",
@@ -382,7 +396,8 @@ export const food_list = [
         image: food_16,
         price: 1000,
         description: "The classic French quiche, made with bacon or pancetta, onions, and Gruyere cheese. French flair.",
-        category: "Pastry"
+        category: "Pastry",
+        type:"International Inspirations"
     },
     {
         _id: "17",
@@ -390,7 +405,8 @@ export const food_list = [
         image: food_17,
         price: 600,
         description: "Melted cheddar on sourdough bread, grilled to perfection.",
-        category: "Sandwich"
+        category: "Sandwich",
+        type:"Classics"
     },
     {
         _id: "18",
@@ -398,56 +414,64 @@ export const food_list = [
         image: food_18,
         price: 1200,
         description: "Turkey, crispy bacon, lettuce, tomato, mayonnaise, and Swiss cheese on toasted bread, served with a side of fries.",
-        category: "Sandwich"
+        category: "Sandwich",
+        type:"Classics"
     }, {
         _id: "19",
         name: "Chicken Sandwich",
         image: food_19,
         price: 1000,
         description: "Crispy fried chicken, lettuce, tomato, and mayo on a toasted bun.",
-        category: "Sandwich"
+        category: "Sandwich",
+        type:"Classics"
     }, {
         _id: "20",
         name: "Turkey Sandwich",
         image: food_20,
         price: 1000,
         description: "Oven-roasted turkey, avocado, lettuce, and tomato on whole wheat bread.",
-        category: "Sandwich"
+        category: "Sandwich",
+        type:"Classics"
     }, {
         _id: "21",
         name: "Pulled Pork Sandwich",
         image: food_21,
         price: 1200,
         description: "Slow-cooked pulled pork, coleslaw, and pickles on a soft bun.",
-        category: "Sandwich"
+        category: "Sandwich",
+        type:"Meat Lovers"
     }, {
         _id: "22",
         name: "French Dip",
         image: food_22,
         price: 1200,
         description: "Thinly sliced roast beef, melted Swiss cheese, and au jus on a crusty sub roll.",
-        category: "Sandwich"
+        category: "Sandwich",
+        type:"Meat Lovers"
     }, {
         _id: "23",
         name: "Avacado Toast",
         image: food_23,
         price: 800,
         description: "Fresh avocado, cherry tomatoes, and feta cheese on whole wheat toast.",
-        category: "Sandwich"
+        category: "Sandwich",
+        type:"Veggie Delights"
     }, {
         _id: "24",
         name: "Egg Sandwich",
         image: food_24,
         price: 700,
         description: "Creamy egg salad, lettuce, and tomato on whole wheat bread.",
-        category: "Sandwich"
+        category: "Sandwich",
+        type:"Veggie Delights"
     }, {
         _id: "25",
         name: "Chicken Roll",
         image: food_25,
         price: 800,
         description: "Tender chicken, crispy onions, and creamy mayo wrapped in a soft flour tortilla.",
-        category: "Roll"
+        category: "Roll",
+        type:"Meat Lovers"
     },
     {
         _id: "26",
@@ -455,7 +479,8 @@ export const food_list = [
         image: food_26,
         price: 1500,
         description: "Fresh lobster, lemon butter, and parsley wrapped in a toasted bun.",
-        category: "Roll"
+        category: "Roll",
+        type:"Meat Lovers"
     },
     {
         _id: "27",
@@ -463,77 +488,88 @@ export const food_list = [
         image: food_27,
         price: 1200,
         description: "Spiced mutton, crispy onions, and cilantro wrapped in a soft flour tortilla.",
-        category: "Roll"
+        category: "Roll",
+        type:"Meat Lovers"
     }, {
         _id: "28",
         name: "Veg Roll",
         image: food_28,
         price: 700,
         description: "Crispy vegetables, hummus, and mixed greens wrapped in a whole wheat tortilla.",
-        category: "Roll"
+        category: "Roll",
+        type:"Veggie Delights"
     }, {
         _id: "29",
         name: "Tomato-Mozzarella Roll",
         image: food_29,
         price: 700,
         description: "Fresh tomatoes, mozzarella cheese, and basil wrapped in a soft flour tortilla.",
-        category: "Roll"
+        category: "Roll",
+        type:"Veggie Delights"
     }, {
         _id: "30",
         name: "Egg Roll",
         image: food_30,
         price: 600,
         description: "Crispy egg roll wrapper filled with shredded vegetables and served with a sweet chili sauce.",
-        category: "Roll"
+        category: "Roll",
+        type:"Veggie Delights"
     }, {
         _id: "31",
         name: "Tikka Roll",
         image: food_31,
         price: 1000,
         description: "Marinated chicken tikka, creamy malai sauce, and cilantro wrapped in a soft flour tortilla.",
-        category: "Roll"
+        category: "Roll",
+        type:"International Inspirations"
     }, {
         _id: "32",
         name: "Soya Chaap Roll",
         image: food_32,
         price: 800,
         description: "Crispy soya chaap, tangy slaw, and cilantro wrapped in a soft flour tortilla.",
-        category: "Roll"
+        category: "Roll",
+        type:"International Inspirations"
     }, {
         _id: "33",
         name: "Classic Cheeseburger",
         image: food_33,
         price: 1000,
         description: "A traditional burger featuring a beef patty, melted cheddar cheese, lettuce, tomato, and onion on a toasted bun.",
-        category: "Burger"
+        category: "Burger",
+        type:"Classic Favourites"
     }, {
         _id: "34",
         name: "Cheddar & Onion Smashed Burger",
         image: food_34,
         price: 1100,
         description: "A classic combo featuring a beef patty, melted cheddar cheese, and caramelized onions on a toasted bun.",
-        category: "Burger"
+        category: "Burger",
+        type:"Classic Favourites"
     }, {
         _id: "35",
         name: "Korean BBQ Burger",
         image: food_35,
         price: 1200,
         description: "A sweet and spicy burger featuring a beef patty, Korean BBQ sauce, and kimchi slaw on a toasted bun",
-        category: "Burger"
+        category: "Burger",
+        type:"Spicy Options"
     }, {
         _id: "36",
         name: "Jerk Chicken Burger",
         image: food_36,
         price: 1100,
         description: "Add a little island flair to your meal with a burger, topped with lettuce, tomato, and a slice of pineapple on a toasted bun.",
-        category: "Burger"
+        category: "Burger",
+        type:"Spicy Options"
     }, {
         _id: "37",
         name: "Bacon BBQ Burger",
         image: food_37,
         price: 1300,
         description: "A sweet & savory burger featuring a beef patty, crispy bacon, BBQ sauce, cheddar cheese, and onion rings on a toasted bun.",
-        category: "Burger"
+        category: "Burger",
+        type:"Gourmet Delights"
     },
     {
         _id: "38",
@@ -541,7 +577,8 @@ export const food_list = [
         image: food_38,
         price: 1400,
         description: "A West Coast-inspired burger featuring a beef patty, avocado, bacon, and a fried egg on a toasted bun.",
-        category: "Burger"
+        category: "Burger",
+        type:"Gourmet Delights"
     },
     {
         _id: "39",
@@ -549,56 +586,64 @@ export const food_list = [
         image: food_39,
         price: 1100,
         description: "Plant-based perfection awaits in our vegan burger, made with a flavorful patty, lettuce, tomato, and avocado on a whole-grain bun.",
-        category: "Burger"
+        category: "Burger",
+        type:"Vegan & Chicken Options"
     }, {
         _id: "40",
         name: "Chicken Burger",
         image: food_40,
         price: 1000,
         description: "Tender and flavorful, our chicken burger features a grilled chicken patty, lettuce, tomato, and mayo on a soft bun.",
-        category: "Burger"
+        category: "Burger",
+        type:"Vegan & Chicken Options"
     }, {
         _id: "41",
         name: "Meatball Sub",
         image: food_41,
         price: 1000,
         description: "Homemade meatballs, marinara sauce, and melted mozzarella cheese.",
-        category: "Submarine"
+        category: "Submarine",
+        type:"Classic Subs"
     }, {
         _id: "42",
         name: "Italian Sub",
         image: food_42,
         price: 1100,
         description: "Salami, ham, pepperoni, provolone cheese, lettuce, tomato, and Italian dressing.",
-        category: "Submarine"
+        category: "Submarine",
+        type:"Classic Subs"
     }, {
         _id: "43",
         name: "Steak & Cheese Sub",
         image: food_43,
         price: 1200,
         description: "Thinly sliced steak, melted provolone cheese, and sautéed onions.",
-        category: "Submarine"
+        category: "Submarine",
+        type:"Meat Lover's Subs"
     }, {
         _id: "44",
         name: "Beef Sub",
         image: food_44,
         price: 1100,
         description: "Thinly sliced roast beef, melted cheddar cheese, and horseradish sauce.",
-        category: "Submarine"
+        category: "Submarine",
+        type:"Meat Lover's Subs"
     }, {
         _id: "45",
         name: "Spicy Chicken Sub",
         image: food_45,
         price: 1100,
         description: "Grilled chicken, pepper jack cheese, lettuce, tomato, and chipotle mayo.",
-        category: "Submarine"
+        category: "Submarine",
+        type:"Spicy & Savory Subs"
     },{
         _id: "46",
         name: "Cubano Sub",
         image: food_46,
         price: 1200,
         description: "Ham, roasted pork, Swiss cheese, pickles, and mustard.",
-        category: "Submarine"
+        category: "Submarine",
+        type:"Spicy & Savory Subs"
     },
     {
         _id: "47",
@@ -606,7 +651,8 @@ export const food_list = [
         image: food_47,
         price: 900,
         description: "Lettuce, tomato, cucumber, bell peppers, sprouts, and hummus.",
-        category: "Submarine"
+        category: "Submarine",
+        type:"Veggie Delights"
     },
     {
         _id: "48",
@@ -614,7 +660,8 @@ export const food_list = [
         image: food_48,
         price: 1000,
         description: "Oven-roasted turkey breast, avocado, lettuce, tomato, and mayo.",
-        category: "Submarine"
+        category: "Submarine",
+        type:"Veggie Delights"
     },
     {
         _id: "49",
@@ -622,7 +669,8 @@ export const food_list = [
         image: food_49,
         price: 1200,
         description: "A classic blend of four cheeses mozzarella, fontina, Gruyere, and parmesan along creamy goodness and melted love.",
-        category: "Pasta"
+        category: "Pasta",
+        type:"Classic Pasta"
     },
     {
         _id: "50",
@@ -630,7 +678,8 @@ export const food_list = [
         image: food_50,
         price: 1000,
         description: "Fresh tomatoes and basil come together in perfect harmony in this light and refreshing pasta dish.",
-        category: "Pasta"
+        category: "Pasta",
+        type:"Classic Pasta"
     },
     {
         _id: "51",
@@ -638,7 +687,8 @@ export const food_list = [
         image: food_51,
         price: 1100,
         description: "Rich and indulgent, our creamy pasta is a treat for the senses.",
-        category: "Pasta"
+        category: "Pasta",
+        type:"Classic Pasta"
     },
     {
         _id: "52",
@@ -646,7 +696,8 @@ export const food_list = [
         image: food_52,
         price: 1100,
         description: "A plant-based twist on the classic, our vegan carbonara pasta is a game-changer for vegans and non-vegans alike.",
-        category: "Pasta"
+        category: "Pasta",
+        type:"Classic Pasta"
     },
     {
         _id: "53",
@@ -654,7 +705,8 @@ export const food_list = [
         image: food_53,
         price: 1300,
         description: "Indulge in our decadent fettuccine alfredo, smothered in a luxurious parmesan sauce.",
-        category: "Pasta"
+        category: "Pasta",
+        type:"Italian Favourites"
     },
     {
         _id: "54",
@@ -662,7 +714,8 @@ export const food_list = [
         image: food_54,
         price: 1000,
         description: "Warm up with our creamy and comforting mac 'n cheese, topped with crispy breadcrumbs.",
-        category: "Pasta"
+        category: "Pasta",
+        type:"Italian Favourites"
     },
     {
         _id: "55",
@@ -670,7 +723,8 @@ export const food_list = [
         image: food_55,
         price: 1200,
         description: "A classic Italian-American favorite, our spaghetti and meatballs is a hearty and satisfying meal.",
-        category: "Pasta"
+        category: "Pasta",
+        type:"Italian Favourites"
     },
     {
         _id: "56",
@@ -678,7 +732,8 @@ export const food_list = [
         image: food_56,
         price: 1100,
         description: "A vegetarian take on the classic, our lentil Bolognese pasta is a flavorful and nutritious option for all.",
-        category: "Pasta"
+        category: "Pasta",
+        type:"Italian Favourites"
     },
     {
         _id: "57",
@@ -686,7 +741,8 @@ export const food_list = [
         image: food_57,
         price: 1200,
         description: "A timeless favorite featuring a blend of mozzarella and parmesan cheese on a crispy crust.",
-        category: "Pizza"
+        category: "Pizza",
+        type:"Classic Favourites"
     },
     {
         _id: "58",
@@ -694,7 +750,8 @@ export const food_list = [
         image: food_58,
         price: 1000,
         description: "A classic Italian pizza featuring a thin crust, fresh tomatoes, mozzarella cheese, and basil leaves.",
-        category: "Pizza"
+        category: "Pizza",
+        type:"Classic Favourites"
     },
     {
         _id: "59",
@@ -702,7 +759,8 @@ export const food_list = [
         image: food_59,
         price: 1300,
         description: "A plant-based delight featuring sautéed wild mushrooms, roasted garlic, and vegan mozzarella cheese on a crispy crust.",
-        category: "Pizza"
+        category: "Pizza",
+        type:"Vegan & Vegetarian Delights"
     },
     ,
     {
@@ -711,7 +769,8 @@ export const food_list = [
         image: food_60,
         price: 1200,
         description: "A flavorful and earthy combination of roasted Portobello mushrooms, red peppers, and mozzarella cheese on a crispy crust.",
-        category: "Pizza"
+        category: "Pizza",
+        type:"Vegan & Vegetarian Delights"
     },
     {
         _id: "61",
@@ -719,7 +778,8 @@ export const food_list = [
         image: food_61,
         price: 1400,
         description: "A creamy and savory combination of Italian sausage, ricotta cheese, and mozzarella cheese on a crispy crust.",
-        category: "Pizza"
+        category: "Pizza",
+        type:"Meat Lovers"
     },
     {
         _id: "62",
@@ -727,7 +787,8 @@ export const food_list = [
         image: food_62,
         price: 1300,
         description: "A comforting combination of grilled chicken, melted mozzarella cheese, and tangy tomato sauce on a crispy crust.",
-        category: "Pizza"
+        category: "Pizza",
+        type:"Meat Lovers"
     },
     ,
     {
@@ -736,7 +797,8 @@ export const food_list = [
         image: food_63,
         price: 1200,
         description: "A sweet and savory combination of juicy pineapple, ham, and mozzarella cheese on a crispy crust.",
-        category: "Pizza"
+        category: "Pizza",
+        type:"Unique Twists"
     },
     {
         _id: "64",
@@ -744,7 +806,8 @@ export const food_list = [
         image: food_64,
         price: 1300,
         description: "Start your day with a twist! Scrambled eggs, crispy bacon, and melted mozzarella cheese on a crispy crust.",
-        category: "Pizza"
+        category: "Pizza",
+        type:"Unique Twists"
     },
     {
         _id: "65",
@@ -752,7 +815,8 @@ export const food_list = [
         image: food_65,
         price: 1200,
         description: "A comforting, creamy classic.",
-        category: "Lasagna"
+        category: "Lasagna",
+        type:"Classic Favourites"
     },
     {
         _id: "66",
@@ -760,7 +824,8 @@ export const food_list = [
         image: food_66,
         price: 1400,
         description: "Indulge in our classic meatball lasagna, a hearty and comforting Italian-American favorite.",
-        category: "Lasagna"
+        category: "Lasagna",
+        type:"Classic Favourites"
     },
     {
         _id: "67",
@@ -768,7 +833,8 @@ export const food_list = [
         image: food_67,
         price: 1600,
         description: "Indulge in the richness of lobster in our decadent lasagna.",
-        category: "Lasagna"
+        category: "Lasagna",
+        type:"Seafood Delights"
     },
     {
         _id: "68",
@@ -776,7 +842,8 @@ export const food_list = [
         image: food_68,
         price: 1800,
         description: "A seafood lover's dream, loaded with shrimp, scallops, and mussels in a garlic-infused white wine sauce.",
-        category: "Lasagna"
+        category: "Lasagna",
+        type:"Seafood Delights"
     },
     {
         _id: "69",
@@ -784,7 +851,8 @@ export const food_list = [
         image: food_69,
         price: 1400,
         description: "A spicy twist on a classic favorite.",
-        category: "Lasagna"
+        category: "Lasagna",
+        type:"Meat Lovers"
     },
     {
         _id: "70",
@@ -792,7 +860,8 @@ export const food_list = [
         image: food_70,
         price: 1500,
         description: "Ignite your taste buds with our spicy sausage lasagna, featuring Italian sausage and a kick of red pepper flakes.",
-        category: "Lasagna"
+        category: "Lasagna",
+        type:"Meat Lovers"
     },
     {
         _id: "71",
@@ -800,7 +869,9 @@ export const food_list = [
         image: food_71,
         price: 1200,
         description: "Savor our veggie-packed lasagna, loaded with sautéed spinach, mushrooms, and ricotta cheese. (Vegan)",
-        category: "Lasagna"
+        category: "Lasagna",
+        type:"Vegan & Vegetarian"
+
     },
     {
         _id: "72",
@@ -808,7 +879,9 @@ export const food_list = [
         image: food_72,
         price: 1300,
         description: "A savory and earthy vegetarian option, featuring sautéed mushrooms and creamy ricotta cheese. (Vegetarian)",
-        category: "Lasagna"
+        category: "Lasagna",
+        type:"Vegan & Vegetarian"
+
     },
     {
         _id: "73",
@@ -816,7 +889,8 @@ export const food_list = [
         image: food_73,
         price: 900,
         description: "Stir-fried to perfection, our soy sauce pan fried noodles are a flavorful and filling option.",
-        category: "Noodles"
+        category: "Noodles",
+        type:"Asian Inspired"
     },
     {
         _id: "74",
@@ -824,7 +898,8 @@ export const food_list = [
         image: food_74,
         price: 1000,
         description: "A vegan twist on the classic, our tofu pad Thai is a flavorful and refreshing option.",
-        category: "Noodles"
+        category: "Noodles",
+        type:"Asian Inspired"
     },
     {
         _id: "75",
@@ -832,7 +907,8 @@ export const food_list = [
         image: food_75,
         price: 900,
         description: "Spicy and addictive, our chili crisp noodles are a flavor bomb waiting to happen.",
-        category: "Noodles"
+        category: "Noodles",
+        type:"Spicy Delights"
     },
     {
         _id: "76",
@@ -840,7 +916,8 @@ export const food_list = [
         image: food_76,
         price: 1100,
         description: "Sweet and spicy, our spicy mango pork with noodles is a unique and exciting flavor combination.",
-        category: "Noodles"
+        category: "Noodles",
+        type:"Spicy Delights"
     },
     {
         _id: "77",
@@ -848,7 +925,8 @@ export const food_list = [
         image: food_77,
         price: 1000,
         description: "A comforting and indulgent option, our one pot creamy garlic noodles are a treat for the senses.",
-        category: "Noodles"
+        category: "Noodles",
+        type:"Comforting Classics"
     },
     {
         _id: "78",
@@ -856,7 +934,8 @@ export const food_list = [
         image: food_78,
         price: 900,
         description: "Nutty and aromatic, our sesame noodles are a great choice for those looking for a lighter option.",
-        category: "Noodles"
+        category: "Noodles",
+        type:"Comforting Classics"
     },
     {
         _id: "79",
@@ -864,7 +943,8 @@ export const food_list = [
         image: food_79,
         price: 800,
         description: "A colorful and nutritious option, our veg noodles are a great choice for vegetarians and vegans alike.",
-        category: "Noodles"
+        category: "Noodles",
+        type:"Vegan & Vegetarian Options"
     },
     {
         _id: "80",
@@ -872,7 +952,8 @@ export const food_list = [
         image: food_80,
         price: 900,
         description: "A healthy and hearty option, our collard greens ramen is a nutritious and delicious choice.",
-        category: "Noodles"
+        category: "Noodles",
+        type:"Vegan & Vegetarian Options"
     },
     {
         _id: "81",
@@ -880,7 +961,8 @@ export const food_list = [
         image: food_81,
         price: 800,
         description: "Crunchy tortillas filled with sautéed veggies and melted cheese.",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        type:"Veggie Favourites"
     },
     {
         _id: "82",
@@ -888,7 +970,8 @@ export const food_list = [
         image: food_82,
         price: 700,
         description: "A colorful mix of sautéed veggies, served with steamed rice.",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        type:"Veggie Favourites"
     },
     {
         _id: "83",
@@ -896,7 +979,8 @@ export const food_list = [
         image: food_83,
         price: 600,
         description: "A hearty, comforting bowl of red lentils in a flavorful broth.",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        type:"Soups"
     },
     {
         _id: "84",
@@ -904,7 +988,8 @@ export const food_list = [
         image: food_84,
         price: 500,
         description: "A fresh mix of seasonal veggies in a light, clear broth.",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        type:"Soups"
     },
     {
         _id: "85",
@@ -912,7 +997,8 @@ export const food_list = [
         image: food_85,
         price: 800,
         description: "Soft tacos filled with flavorful black beans, topped with avocado and salsa.",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        type:"Wraps & Tacos"
     },
     {
         _id: "86",
@@ -920,7 +1006,8 @@ export const food_list = [
         image: food_86,
         price: 700,
         description: "Crisp lettuce wraps filled with marinated tofu, veggies, and tangy sauce.",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        type:"Wraps & Tacos"
     },
     {
         _id: "87",
@@ -928,7 +1015,8 @@ export const food_list = [
         image: food_87,
         price: 1000,
         description: "A creamy, spinach-based curry made with paneer.",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        type:"International Delights"
     },
     {
         _id: "88",
@@ -936,7 +1024,8 @@ export const food_list = [
         image: food_88,
         price: 900,
         description: "A plant-based twist on traditional meatballs, served with marinara sauce.",
-        category: "Pure Veg"
+        category: "Pure Veg",
+        type:"International Delights"
     },
     {
         _id: "89",
@@ -944,7 +1033,8 @@ export const food_list = [
         image: food_89,
         price: 400,
         description: "Classic coffee blend of espresso, steamed milk, and foam.",
-        category: "Beverages"
+        category: "Beverages",
+        type:"Coffee"
     },
     {
         _id: "90",
@@ -952,7 +1042,8 @@ export const food_list = [
         image: food_90,
         price: 300,
         description: "Refreshing summer brew of coffee served over ice with a touch of cream.",
-        category: "Beverages"
+        category: "Beverages",
+        type:"Coffee"
     },
     {
         _id: "91",
@@ -960,7 +1051,8 @@ export const food_list = [
         image: food_91,
         price: 400,
         description: "Warm black tea, steamed milk, and a hint of autumn spices.",
-        category: "Beverages"
+        category: "Beverages",
+        type:"Tea"
     },
     {
         _id: "92",
@@ -968,7 +1060,8 @@ export const food_list = [
         image: food_92,
         price: 300,
         description: "Brewed tea served over ice with a squeeze of lemon.",
-        category: "Beverages"
+        category: "Beverages",
+        type:"Tea"
     },
     {
         _id: "93",
@@ -976,7 +1069,8 @@ export const food_list = [
         image: food_93,
         price: 500,
         description: "Freshly squeezed 100% pure orange juice, perfect for a morning pick-me-up.",
-        category: "Beverages"
+        category: "Beverages",
+        type:"Juices"
     },
     {
         _id: "94",
@@ -984,7 +1078,8 @@ export const food_list = [
         image: food_94,
         price: 400,
         description: "Refresh with tart cranberry juice, lime juice, and a splash of sparkling water.",
-        category: "Beverages"
+        category: "Beverages",
+        type:"Juices"
     },
     {
         _id: "95",
@@ -992,7 +1087,8 @@ export const food_list = [
         image: food_95,
         price: 500,
         description: "Indulge in juicy blueberries blended with sweet vanilla and honey.",
-        category: "Beverages"
+        category: "Beverages",
+        type:"Specialty Drinks"
     },
     {
         _id: "96",
@@ -1000,7 +1096,8 @@ export const food_list = [
         image: food_96,
         price: 400,
         description: "Rich chocolate and steamed milk topped with whipped cream.",
-        category: "Beverages"
+        category: "Beverages",
+        type:"Specialty Drinks"
     },
     {
         _id: "97",
@@ -1008,7 +1105,8 @@ export const food_list = [
         image: food_97,
         price: 300,
         description: "Creamy ice cream with a ripple of flavor.",
-        category: "Desserts"
+        category: "Desserts",
+        type:"Cold Treats"
     },
     {
         _id: "98",
@@ -1016,7 +1114,8 @@ export const food_list = [
         image: food_98,
         price: 400,
         description: "Freshly made ice cream served in a jar.",
-        category: "Desserts"
+        category: "Desserts",
+        type:"Cold Treats"
     },
     {
         _id: "99",
@@ -1024,7 +1123,8 @@ export const food_list = [
         image: food_99,
         price: 400,
         description: "Rich, fudgy brownies made with dark chocolate.",
-        category: "Desserts"
+        category: "Desserts",
+        type:"Baked Goods"
     },
     {
         _id: "100",
@@ -1032,7 +1132,8 @@ export const food_list = [
         image: food_100,
         price: 300,
         description: "Warm, chewy cookies fresh from the oven.",
-        category: "Desserts"
+        category: "Desserts",
+        type:"Baked Goods"
     },
     {
         _id: "101",
@@ -1040,7 +1141,8 @@ export const food_list = [
         image: food_101,
         price: 600,
         description: "Rich cream base topped with a caramelized sugar crust.",
-        category: "Desserts"
+        category: "Desserts",
+        type:"Creamy Delights"
     },
     {
         _id: "102",
@@ -1048,7 +1150,8 @@ export const food_list = [
         image: food_102,
         price: 500,
         description: "Light and airy chocolate mousse made with dark chocolate.",
-        category: "Desserts"
+        category: "Desserts",
+        type:"Creamy Delights"
     },
     {
         _id: "103",
@@ -1056,7 +1159,8 @@ export const food_list = [
         image: food_103,
         price: 400,
         description: "A cold dessert made with vermicelli noodles, milk, and rose syrup, topped with cherry and nuts.",
-        category: "Desserts"
+        category: "Desserts",
+        type:"Fruit-Based Desserts"
     },
     {
         _id: "104",
@@ -1064,7 +1168,8 @@ export const food_list = [
         image: food_104,
         price: 500,
         description: "Layers of cherry compote, whipped cream, and sponge cake.",
-        category: "Desserts"
+        category: "Desserts",
+        type:"Fruit-Based Desserts"
     },
     {
         _id: "105",
@@ -1072,7 +1177,8 @@ export const food_list = [
         image: food_105,
         price: 600,
         description: "Indulge in our rich, gooey, and decadent chocolate lava cake, where every bite is a velvety escape.",
-        category: "Cake"
+        category: "Cake",
+        type:"Chocolate Delights"
     },
     {
         _id: "106",
@@ -1080,7 +1186,8 @@ export const food_list = [
         image: food_106,
         price: 700,
         description: "Velvety, rich, and seductively red - a romantic treat.",
-        category: "Cake"
+        category: "Cake",
+        type:"Chocolate Delights"
     },
     {
         _id: "107",
@@ -1088,7 +1195,8 @@ export const food_list = [
         image: food_107,
         price: 800,
         description: "Rich chocolate cake, cherries, and whipped cream come together in this classic dessert.",
-        category: "Cake"
+        category: "Cake",
+        type:"Chocolate Delights"
     },
     {
         _id: "108",
@@ -1096,7 +1204,8 @@ export const food_list = [
         image: food_108,
         price: 600,
         description: "Sweet and tangy, our strawberry cheesecake is a refreshing treat.",
-        category: "Cake"
+        category: "Cake",
+        type:"Cheesecakes"
     },
     {
         _id: "109",
@@ -1104,7 +1213,8 @@ export const food_list = [
         image: food_109,
         price: 800,
         description: "Tart blueberries meet creamy cheesecake in this sweet and tangy delight.",
-        category: "Cake"
+        category: "Cake",
+        type:"Cheesecakes"
     },
     {
         _id: "110",
@@ -1112,7 +1222,8 @@ export const food_list = [
         image: food_110,
         price: 500,
         description: "Treat yourself to a slice of our rich, buttery pound cake, a comforting companion for any time of day.",
-        category: "Cake"
+        category: "Cake",
+        type:"Classic Favourites"
     },
     {
         _id: "111",
@@ -1120,7 +1231,8 @@ export const food_list = [
         image: food_111,
         price: 600,
         description: "A creamy and dreamy cake, perfect for any celebration.",
-        category: "Cake"
+        category: "Cake",
+        type:"Classic Favourites"
     },
     {
         _id: "112",
@@ -1128,6 +1240,7 @@ export const food_list = [
         image: food_112,
         price: 700,
         description: "Coffee-soaked, creamy, and Italian-inspired - a sophisticated delight.",
-        category: "Cake"
+        category: "Cake",
+        type:"Classic Favourites"
     }
 ]
