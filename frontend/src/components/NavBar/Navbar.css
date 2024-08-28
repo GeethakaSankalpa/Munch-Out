@@ -27,7 +27,7 @@
     background:transparent;
     font-size: 16px;
     color: #49557e;
-    border: 1px solid #DAA06D;
+    border: 1px solid #FF7F50;
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
@@ -35,12 +35,13 @@
 }
 
 .navbar button:hover{
-    background-color: #E97451;
+    background-color: #FF7518;
+    color: #000;
 }
 
 .navbar .active{
     padding-bottom: 2px;
-    border-bottom:3px solid #D2B48C;
+    border-bottom:3px solid #E97451;
 }
 
 .navbar li{

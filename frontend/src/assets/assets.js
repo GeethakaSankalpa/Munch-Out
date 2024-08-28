@@ -186,72 +186,72 @@ export const menu_list = [
     {
         menu_name: "Salad",
         menu_image: menu_1,
-        menu_category: ["Classic Salads", "Protein-packed Salads", "Veggie-Delights"]
+        menu_category: ["All", "Classic Salads", "Protein-packed Salads", "Veggie-Delights"]
     },
     {
         menu_name: "Pastry",
         menu_image: menu_2,
-        menu_category: ["Sweet Treats", "International Inspirations"]
+        menu_category: ["All", "Sweet Treats", "International Inspirations"]
     },
     {
         menu_name: "Sandwich",
         menu_image: menu_3,
-        menu_category: ["Classics", "Meat Lovers", "Veggie Delights",]
+        menu_category: ["All", "Classics", "Meat Lovers", "Veggie Delights",]
     },
     {
         menu_name: "Roll",
         menu_image: menu_4,
-        menu_category: ["Meat Lovers", "Veggie Delights", "International Inspirations"]
+        menu_category: ["All", "Meat Lovers", "Veggie Delights", "International Inspirations"]
     },
     {
         menu_name: "Burger",
         menu_image: menu_5,
-        menu_category: ["Classic Favourites", "Spicy Options", "Gourmet Delights", "Vegan & Chicken Options"]
+        menu_category: ["All", "Classic Favourites", "Spicy Options", "Gourmet Delights", "Vegan & Chicken Options"]
     },
     {
         menu_name: "Submarine",
         menu_image: menu_6,
-        menu_category: ["Classic Subs", "Meat Lover's Subs", "Spicy & Savory Subs", "Veggie Delights"]
+        menu_category: ["All", "Classic Subs", "Meat Lover's Subs", "Spicy & Savory Subs", "Veggie Delights"]
     },
     {
         menu_name: "Pasta",
         menu_image: menu_7,
-        menu_category: ["Classics", "Italian Favourites"]
+        menu_category: ["All", "Classics", "Italian Favourites"]
     },
     {
         menu_name: "Pizza",
         menu_image: menu_8,
-        menu_category: ["Classic Favourites", "Vegan & Vegetarian Delights", "Meat Lovers", "Unique Twists"]
+        menu_category: ["All", "Classic Favourites", "Vegan & Vegetarian Delights", "Meat Lovers", "Unique Twists"]
     },
     {
         menu_name: "Lasagna",
         menu_image: menu_9,
-        menu_category: ["Classic Favourites", "Seafood Delights", "Meat Lovers", "Vegan & Vegetarian"]
+        menu_category: ["All", "Classic Favourites", "Seafood Delights", "Meat Lovers", "Vegan & Vegetarian"]
     },
     {
         menu_name: "Noodles",
         menu_image: menu_10,
-        menu_category: ["Asian Inspired", "Spicy Delights", "Comforting Classics", "Vegan & Vegetarian Options"]
+        menu_category: ["All", "Asian Inspired", "Spicy Delights", "Comforting Classics", "Vegan & Vegetarian Options"]
     },
     {
         menu_name: "Pure Veg",
         menu_image: menu_11,
-        menu_category: ["Veggie Favourites", "Soups", "Wraps & Tacos", "International Delights"]
+        menu_category: ["All", "Veggie Favourites", "Soups", "Wraps & Tacos", "International Delights"]
     },
     {
         menu_name: "Beverages",
         menu_image: menu_12,
-        menu_category: ["Coffee", "Tea", "Juices", "Specialty Drinks"]
+        menu_category: ["All", "Coffee", "Tea", "Juices", "Specialty Drinks"]
     },
     {
         menu_name: "Desserts",
         menu_image: menu_13,
-        menu_category: ["Cold Treats", "Baked Goods", "Creamy Delights", "Fruit-Based Desserts"]
+        menu_category: ["All", "Cold Treats", "Baked Goods", "Creamy Delights", "Fruit-Based Desserts"]
     },
     {
         menu_name: "Cake",
         menu_image: menu_14,
-        menu_category: ["Chocolate Delights", "Cheesecakes", "Classic Favourites"]
+        menu_category: ["All", "Chocolate Delights", "Cheesecakes", "Classic Favourites"]
     }]
 
 export const food_list = [

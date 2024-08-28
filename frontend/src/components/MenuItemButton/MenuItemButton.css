@@ -1,0 +1,7 @@
+.menu-category-dropdown select {
+    width: 210px;
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
