@@ -46,6 +46,10 @@
     border-radius: 4px;
 }
 
+.login-popup-inputs input::placeholder{
+    color: tomato;
+}
+
 .login-popup-container button{
     border: none;
     padding: 10px;
