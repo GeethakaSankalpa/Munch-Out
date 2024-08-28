@@ -7,7 +7,6 @@
 
 .navbar .logo{
     width: 100px;
-    border-radius: 50px;
 }
 
 .navbar-menu{
@@ -65,7 +64,6 @@
 @media (max-width:1050px) {
     .navbar .logo{
         width: 140px;
-        border-radius: 50%;
     }
     .navbar-menu{
         gap: 20px;
