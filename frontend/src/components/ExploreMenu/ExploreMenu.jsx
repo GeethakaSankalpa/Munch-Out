@@ -17,7 +17,7 @@ const ExploreMenu = ({ category, setCategory }) => {
             <h1> Explore Our Menu </h1>
       {/* Display a paragraph of text with a bolded section */}
             <p className='explore-menu-text'>
-                <emp> Satisfy Your Cravings: </emp> From classic comfort food to innovative twists, our menu is designed to delight your taste buds and
+                <b> Satisfy Your Cravings: </b> From classic comfort food to innovative twists, our menu is designed to delight your taste buds and
                 leave you feeling fulfilled.
             </p>
       {/* Create a div to hold the menu list items */}

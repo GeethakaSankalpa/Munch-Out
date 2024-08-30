@@ -8,8 +8,8 @@ const Cart = () => {
   // remove from cart functionality
   const { cartItems, food_list, removeFromCart, getTotalCartAmount } = useContext(StoreFoodContext);
 
-  // // place order
-  // const navigate = useNavigate();
+  // place order
+  const navigate = useNavigate();
 
   return (
     <div className='cart'>

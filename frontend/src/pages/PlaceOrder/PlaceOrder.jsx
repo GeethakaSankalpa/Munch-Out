@@ -3,7 +3,13 @@ import './PlaceOrder.css'
 
 const PlaceOrder = () => {
   return (
-    <div>
+    <div className='place-order'>
+      <div className="place-order-left">
+        <p className="title"> Delivery Information </p>
+      </div>
+      <div className="place-order-right">
+
+      </div>
       
     </div>
   )
