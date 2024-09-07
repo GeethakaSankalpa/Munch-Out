@@ -1,19 +1,20 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useMemo } from 'react';
 import './MenuItemButton.css';
 import { StoreFoodContext } from '../../FoodContext/StoreFoodContext';
-import FoodItemCard from '../FoodIemCard/FoodItemCard';
+import FoodItemCard from '../FoodItemCard/FoodItemCard';
 import FoodDisplay from '../FoodDisplay/FoodDisplay';
 
-const MenuItemButton = ({ options, title, type }) => {
+const MenuItemButton = ({ options, title}) => {
   const { food_list } = useContext(StoreFoodContext);
-  const [filteredFoodList, setFilteredFoodList] = useState(food_list);
+  const [selectedValue, setSelectedValue] = useState('All');
+
+  const filteredFoodList = useMemo(() => {
+    if (selectedValue === 'All') return food_list;
+    return food_list.filter((item) => item.category === selectedValue);
+  }, [food_list, selectedValue]);
 
   const handleSelectChange = (e) => {
-    const selectedValue = e.target.value;
-    const newFilteredFoodList = food_list.filter((item) => {
-      return selectedValue === "All" || item.category === selectedValue;
-    });
-    setFilteredFoodList(newFilteredFoodList);
+    setSelectedValue(e.target.value);
   };
 
   return (
