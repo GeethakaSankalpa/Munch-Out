@@ -2,6 +2,7 @@ import express from "express"
 import cors from "cors"
 import { connect } from "mongoose"
 import { connectDB } from "./config/db.js"
+import foodRouter from "./routes/foodRoute.js"
 
 // app config
 const app = express()
@@ -13,6 +14,11 @@ app.use(cors()) // access the backend from any frontend
 
 // db connection
 connectDB();
+
+
+// API endpoints
+// API endpoint for foodroute
+app.use("/api/food",foodRouter)
 
 /**
  * HTTP method that can request data from the server
