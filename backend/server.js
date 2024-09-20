@@ -1,5 +1,7 @@
 import express from "express"
 import cors from "cors"
+import { connect } from "mongoose"
+import { connectDB } from "./config/db.js"
 
 // app config
 const app = express()
@@ -8,6 +10,9 @@ const port = 4000
 // middleware = will get the request from frontend to backend
 app.use(express.json())
 app.use(cors()) // access the backend from any frontend
+
+// db connection
+connectDB();
 
 /**
  * HTTP method that can request data from the server
