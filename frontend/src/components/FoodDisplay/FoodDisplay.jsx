@@ -11,7 +11,7 @@ const FoodDisplay = ({ category }) => {
 
   return (
     <div className='food-display' id='food-display'>
-      <div className="food-display-title">
+      {/* <div className="food-display-title">
         <h2> Top Dishes Near You </h2>
         {category !== "All" && (
           <MenuItemButton
@@ -19,7 +19,7 @@ const FoodDisplay = ({ category }) => {
             options={menu_list.find((item) => item.menu_name === category).menu_category}
           />
         )}
-      </div>
+      </div> */}
 
       <div className="food-display-list">
         {food_list.map((item, index) => {
