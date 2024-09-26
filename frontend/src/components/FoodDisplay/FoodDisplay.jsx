@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import './FoodDisplay.css';
 import { StoreFoodContext } from '../../FoodContext/StoreFoodContext';
 import FoodItemCard from '../FoodItemCard/FoodItemCard';
@@ -8,6 +8,8 @@ import MenuItemButton from '../MenuItemButton/MenuItemButton'
 const FoodDisplay = ({ category }) => {
 
   const { food_list } = useContext(StoreFoodContext);
+  const[selectedValue, setSelectedValue] = useState("All");
+  
 
   return (
     <div className='food-display' id='food-display'>
