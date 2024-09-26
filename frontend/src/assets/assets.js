@@ -671,7 +671,7 @@ export const food_list = [
         price: 1200,
         description: "A classic blend of four cheeses mozzarella, fontina, Gruyere, and parmesan along creamy goodness and melted love.",
         category: "Pasta",
-        type: "Classic Pasta"
+        type: "Classics"
     },
     {
         _id: "50",
@@ -680,7 +680,7 @@ export const food_list = [
         price: 1000,
         description: "Fresh tomatoes and basil come together in perfect harmony in this light and refreshing pasta dish.",
         category: "Pasta",
-        type: "Classic Pasta"
+        type: "Classics"
     },
     {
         _id: "51",
@@ -689,7 +689,7 @@ export const food_list = [
         price: 1100,
         description: "Rich and indulgent, our creamy pasta is a treat for the senses.",
         category: "Pasta",
-        type: "Classic Pasta"
+        type: "Classics"
     },
     {
         _id: "52",
@@ -698,7 +698,7 @@ export const food_list = [
         price: 1100,
         description: "A plant-based twist on the classic, our vegan carbonara pasta is a game-changer for vegans and non-vegans alike.",
         category: "Pasta",
-        type: "Classic Pasta"
+        type: "Classics"
     },
     {
         _id: "53",
