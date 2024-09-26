@@ -15,12 +15,28 @@ const Cart = () => {
     <div className='cart'>
       <div className="cart-items">
         <div className="cart-items-title">
-          <h2><p> Items </p></h2>
-          <h2><p> Title </p></h2>
-          <h2><p> Price </p></h2>
-          <h2><p> Quantity </p></h2>
-          <h2><p> Total </p></h2>
-          <h2><p> Remove </p></h2>
+          {food_list.map((item) => {
+            if (cartItems[item._id] <= 0) {
+              return (
+                <div className='cart-items-empty'>
+                  <h2> The Cart is Empty </h2>
+                </div>
+              )
+            }
+            if (cartItems[item._id] >= 0) {
+              return (
+                <div className="cart-items-title-names">
+                  <h2><p> Items </p></h2>
+                  <h2><p> Title </p></h2>
+                  <h2><p> Price </p></h2>
+                  <h2><p> Quantity </p></h2>
+                  <h2><p> Total </p></h2>
+                  <h2><p> Remove </p></h2>
+                </div>
+              )
+            }
+          })}
+
         </div>
         <br />
         <hr />
@@ -52,12 +68,12 @@ const Cart = () => {
               <hr />
               <div className='cart-total-details'>
                 <p> Delivery Fee </p>
-                <p> LKR {getTotalCartAmount() === 0?0:2} </p>
+                <p> LKR {getTotalCartAmount() === 0 ? 0 : 2} </p>
               </div>
               <hr />
               <div className='cart-total-details'>
                 <b> Total </b>
-                <b> LKR {getTotalCartAmount() === 0?0:getTotalCartAmount() + 2} </b>
+                <b> LKR {getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 2} </b>
               </div>
             </div>
             <button onClick={() => navigate('/order')}> PROCEED TO CHECKOUT </button>
