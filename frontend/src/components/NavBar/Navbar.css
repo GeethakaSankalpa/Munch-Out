@@ -48,11 +48,11 @@
     cursor: pointer;
 }
 
-.navbar-search-icon{
+.navbar-cart-icon{
     position: relative;
 }
 
-.navbar-search-icon .cart-add-dot{
+.navbar-cart-icon .cart-add-dot{
     position: absolute;
     min-width: 10px;
     min-height: 10px;
