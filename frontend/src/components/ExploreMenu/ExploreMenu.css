@@ -24,6 +24,7 @@
     overflow-x: scroll;
 }
 
+
 .explore-menu-list::-webkit-scrollbar{
     display: none;
 }
@@ -35,6 +36,8 @@
     border-radius: 50%;
     transition: 0.2s;
 }
+
+
 
 .explore-menu-list-item p{
     margin-top: 10px;
