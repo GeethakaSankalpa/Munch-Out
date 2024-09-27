@@ -5,12 +5,12 @@
   <source src="/screenshots/Munch-out.mp4" type="video/mp4">
 </video>
 
-Munch Out is your ultimate food delivery companion, designed to bring delicious meals right to your doorstep. Whether you’re craving a hearty pizza, or a comforting bowl of pasta, we’ve got you covered!
+Munch Out is your ultimate food ordering companion, designed to bring delicious meals right to your doorstep. Whether you’re craving a hearty pizza, or a comforting bowl of pasta, we’ve got you covered!
 
-With our user-friendly app, ordering your favorite dishes is quick and easy. Explore a wide variety of cuisines, enjoy exclusive deals, and experience fast, reliable delivery—all from the comfort of your home or on the go.
+With our user-friendly app, ordering your favorite dishes is quick and easy. Explore a wide variety of cuisines, enjoy exclusive deals, and experience fast and reliable service.
 ## Components
 ### Home 
-The Home component serves as the gateway to your food delivery experience. With a dynamic header that draws users in, the Explore Menu allows them to effortlessly browse categories, while the Food Display showcases top dishes tailored to their cravings. Dive in and discover your next meal with just a click!
+The Home component serves as the gateway to your food ordering experience. With a dynamic header that draws users in, the Explore Menu allows them to effortlessly browse categories, while the Food Display showcases top dishes tailored to their cravings. Dive in and discover your next meal with just a click!
 
 ### Header : Crave It? Click It!
 The Header welcomes users with an enticing message, setting the tone for a delightful food adventure. It features a call-to-action button that smoothly navigates to the menu. This component embodies the spirit of Munch Out: convenience and deliciousness at your fingertips!
@@ -37,7 +37,7 @@ The Cart component is designed to streamline your ordering process. It intellige
 The Login Popup simplifies the user experience, providing a seamless interface for login and sign-up. With a clean design and easy navigation, users can quickly access their accounts and start ordering their favorite meals. Security meets convenience!
 
 ### Footer: Stay Connected with Munch Out!
-Our Footer provides essential information about Munch Out, including contact details and social media links. It highlights our mission to deliver delicious meals right to your doorstep, ensuring users can always reach us for inquiries or support. Join our community and elevate your food experience!
+Our Footer provides essential information about Munch Out, including contact details and social media links. It highlights our mission to order delicious meals right to your doorstep, ensuring users can always reach us for inquiries or support. Join our community and elevate your food experience!
 
 ## Tech Stack
 * ### React: For building the user interface.
