@@ -18,15 +18,26 @@
 
 .cart-items-empty {
     font-size: max(1vw, 12px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     text-align: center;
 }
 
 .cart-items-item {
-    margin: 10px 0px;
+    margin: 10px 0;
     color: black;
-    align-content: center;
     font-size: max(1vw, 15px);
-    ;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr auto; /* Adjusted column sizes */
+    align-items: center;
+    text-align: center;
+    padding: 10px; /* Added padding for better spacing */
+    border: 1px solid #ddd; /* Optional: added border for separation */
+    border-radius: 5px; /* Optional: added rounded corners */
+    background-color: #f9f9f9; /* Optional: light background for contrast */
+
 }
 
 .cart-items-item img {
