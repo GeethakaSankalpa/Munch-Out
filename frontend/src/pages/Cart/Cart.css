@@ -7,7 +7,7 @@
     grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
     align-items: center;
     text-align: center;
-    color: tomato;
+    color: #555;
     font-size: max(1vw, 12px);
 }
 
@@ -19,18 +19,21 @@
 .cart-items-empty {
     font-size: max(1vw, 12px);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    text-align: center; 
+    min-height: 200px;
+    width: max(10vh, 1200px)
 }
+
 
 .cart-items-item {
     margin: 10px 0;
     color: black;
     font-size: max(1vw, 15px);
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr 1fr auto; /* Adjusted column sizes */
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr; /* Adjusted column sizes */
     align-items: center;
     text-align: center;
     padding: 10px; /* Added padding for better spacing */
@@ -129,6 +132,11 @@
     border: none;
     color: white;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-promo-code-input button:hover{
+    background-color: #454545;
 }
 
 @media (max-width:750px) {

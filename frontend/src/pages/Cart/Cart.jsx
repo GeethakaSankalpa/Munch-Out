@@ -15,56 +15,52 @@ const Cart = () => {
         <div className="cart-items-title">
           {isCartEmpty ? (
             <div className='cart-items-empty'>
-              <h2>The Cart is Empty</h2>
+              <h2> Oops! It looks like you haven’t added anything to your cart yet. </h2>
             </div>
           ) : (
             <>
-
               <h2>Items</h2>
               <h2>Title</h2>
               <h2>Price</h2>
               <h2>Quantity</h2>
               <h2>Total</h2>
               <h2>Remove</h2>
-
-
-
             </>
           )}
-          {food_list.map((item) => {
-            if (cartItems[item._id] > 0) {
-              return (
-                <div key={item._id} className="cart-items-item">
-                  <img src={item.image} alt={item.name} />
-                  <p>{item.name}</p>
-                  <p>LKR {item.price}</p>
-                  <p>{cartItems[item._id]}</p>
-                  <p>LKR {item.price * cartItems[item._id]}</p>
-                  <p onClick={() => removeFromCart(item._id)} className='remove-cross'>x</p>
-                </div>
-              )
-            }
-            return null; // In case the quantity is not greater than zero
-          })}
         </div>
+        {food_list.map((item) => {
+          if (cartItems[item._id] > 0) {
+            return (
+              <div key={item._id} className="cart-items-item">
+                <img src={item.image} alt={item.name} />
+                <p>{item.name}</p>
+                <p>LKR {item.price}</p>
+                <p>{cartItems[item._id]}</p>
+                <p>LKR {item.price * cartItems[item._id]}</p>
+                <p onClick={() => removeFromCart(item._id)} className='remove-cross'>x</p>
+              </div>
+            );
+          }
+          return null; // In case the quantity is not greater than zero
+        })}  
 
         <div className="cart-bottom">
           <div className="cart-total">
-            <h2>Cart Totals</h2>
+            <h2> Cart Totals </h2>
             <div>
               <div className='cart-total-details'>
-                <p>Sub Total</p>
+                <p> Sub Total</p>
                 <p>LKR {getTotalCartAmount()}</p>
               </div>
               <hr />
               <div className='cart-total-details'>
-                <p>Delivery Fee</p>
-                <p>LKR {getTotalCartAmount() === 0 ? 0 : 2}</p>
+                <p> Delivery Fee</p>
+                <p>LKR {getTotalCartAmount() === 0 ? 0 : 100}</p>
               </div>
               <hr />
               <div className='cart-total-details'>
                 <b>Total</b>
-                <b>LKR {getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 2}</b>
+                <b>LKR {getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 100}</b>
               </div>
             </div>
             <button onClick={() => navigate('/order')}>PROCEED TO CHECKOUT</button>
