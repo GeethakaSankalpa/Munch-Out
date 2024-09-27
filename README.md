@@ -1,5 +1,10 @@
 # Munch-out
 ## Welcome to Munch Out!
+
+<video width="320" height="240" autoplay>
+  <source src="/screenshots/Munch-out.mp4" type="video/mp4">
+</video>
+
 Munch Out is your ultimate food delivery companion, designed to bring delicious meals right to your doorstep. Whether you’re craving a hearty pizza, or a comforting bowl of pasta, we’ve got you covered!
 
 With our user-friendly app, ordering your favorite dishes is quick and easy. Explore a wide variety of cuisines, enjoy exclusive deals, and experience fast, reliable delivery—all from the comfort of your home or on the go.
