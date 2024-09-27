@@ -26,32 +26,28 @@ const Cart = () => {
               <h2>Quantity</h2>
               <h2>Total</h2>
               <h2>Remove</h2>
-              
 
-              
+
+
             </>
           )}
           {food_list.map((item) => {
-                if (cartItems[item._id] > 0) {
-                  return (
-                    <div>
-                      <div className=" cart-items-item">
-                        <img src={item.image} alt='' />
-                        <p> {item.name} </p>
-                        <p> LKR {item.price} </p>
-                        <p> {cartItems[item._id]} </p>
-                        <p> LKR {item.price * cartItems[item._id]} </p>
-                        <p onClick={() => removeFromCart(item._id)} className='remove-cross'> x </p>
-                      </div>
-                  
-                    </div>
-
-                  )
-                }
-                return null; // In case the quantity is not greater than zero
-              })}
+            if (cartItems[item._id] > 0) {
+              return (
+                <div key={item._id} className="cart-items-item">
+                  <img src={item.image} alt={item.name} />
+                  <p>{item.name}</p>
+                  <p>LKR {item.price}</p>
+                  <p>{cartItems[item._id]}</p>
+                  <p>LKR {item.price * cartItems[item._id]}</p>
+                  <p onClick={() => removeFromCart(item._id)} className='remove-cross'>x</p>
+                </div>
+              )
+            }
+            return null; // In case the quantity is not greater than zero
+          })}
         </div>
-       
+
         <div className="cart-bottom">
           <div className="cart-total">
             <h2>Cart Totals</h2>
@@ -79,7 +75,7 @@ const Cart = () => {
               <div className="cart-promo-code-input">
                 <input type="text" placeholder='Promo Code' />
                 <button>Submit</button>
-                </div>
+              </div>
             </div>
           </div>
         </div>
