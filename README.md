@@ -39,6 +39,18 @@ The Login Popup simplifies the user experience, providing a seamless interface f
 ### Footer: Stay Connected with Munch Out!
 Our Footer provides essential information about Munch Out, including contact details and social media links. It highlights our mission to deliver delicious meals right to your doorstep, ensuring users can always reach us for inquiries or support. Join our community and elevate your food experience!
 
+## Tech Stack
+* ### React: For building the user interface.
+* ### React Router: For handling routing within the application.
+* ### CSS: For styling the components.
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
+#### If you have any suggestions, ideas, or feedback, please don't hesitate to reach out ❤️
+A huge thank you for taking the time to explore Munch-out 😊.
+
 
 
 
